@@ -8,10 +8,5 @@ public class App
 		
 		return scoreCard.chars().map(score -> Math.max(Character.getNumericValue(score), 0)).sum();
 	}
-	
-    public static void main( String[] args )
-    {
-    	App myApp = new App();
-    }
     
 }

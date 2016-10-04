@@ -27,4 +27,10 @@ public class AppTest
        assertEquals(60, app.score("33333333333333333333"));
     }
     
+    @Test
+    public void whenNoXorSpareRolledReturnsSum()
+    {
+       assertEquals(59, app.score("-9128-3562--1-815233"));
+    }
+    
 }
