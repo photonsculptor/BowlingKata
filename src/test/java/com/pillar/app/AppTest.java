@@ -8,6 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class AppTest
 {
     private App app;
+    
 
     @Before
     public void setUp() {
@@ -15,8 +16,9 @@ public class AppTest
     }
 
     @Test
-    public void whenTheGreetingIsRequestedThenTheAppGreetsTheWorld()
+    public void whenAllGutterBallsReturns0()
     {
-        assertEquals( "Hello World!", app.getGreeting());
+       assertEquals(0, app.score("--------------------"));
     }
+    
 }

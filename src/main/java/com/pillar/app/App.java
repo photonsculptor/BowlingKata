@@ -1,19 +1,14 @@
 package com.pillar.app;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
+	public int score (String scoreCard) {
+		return 0;
+	}
+	
     public static void main( String[] args )
     {
     	App myApp = new App();
-        System.out.println( myApp.getGreeting() );
     }
-
-    public String getGreeting()
-    {
-    	return "Hi. I'm a Foo!";
-    }
+    
 }
