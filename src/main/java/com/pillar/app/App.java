@@ -1,9 +1,12 @@
 package com.pillar.app;
 
+import java.util.stream.Stream;
+
 public class App 
 {
 	public int score (String scoreCard) {
-		return 0;
+		
+		return scoreCard.chars().map(score -> Math.max(Character.getNumericValue(score), 0)).sum();
 	}
 	
     public static void main( String[] args )

@@ -21,4 +21,10 @@ public class AppTest
        assertEquals(0, app.score("--------------------"));
     }
     
+    @Test
+    public void whenAll3sReturns60()
+    {
+       assertEquals(60, app.score("33333333333333333333"));
+    }
+    
 }
